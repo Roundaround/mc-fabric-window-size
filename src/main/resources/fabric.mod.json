@@ -19,5 +19,6 @@
         "me/roundaround/windowsize/VideoOptionsScreenExtensions"
       ]
     }
-  }
+  },
+  "environment": "client"
 }
