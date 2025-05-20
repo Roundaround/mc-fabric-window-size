@@ -1,0 +1,6 @@
+{
+  "windowsize.options.resolution": "Windowed Resolution",
+  "windowsize.options.resolution.current": "Current",
+  "windowsize.options.resolution.entry": "%sx%s",
+  "windowsize.options.resolution.unavailable": "Setting unavailable"
+}

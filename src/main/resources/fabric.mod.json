@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "${modId}",
+  "version": "${version}",
+  "name": "Window Size",
+  "description": "Permanently modify the Minecraft game's (non-fullscreen) window size without having to edit options.txt!",
+  "authors": [
+    "Roundaround"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/window-size",
+    "sources": "https://github.com/Roundaround/mc-fabric-window-size",
+    "issues": "https://github.com/Roundaround/mc-fabric-window-size/issues"
+  },
+  "license": "MIT",
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_446": [
+        "me/roundaround/windowsize/VideoOptionsScreenExtensions"
+      ]
+    }
+  }
+}
